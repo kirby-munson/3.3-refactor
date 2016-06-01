@@ -83,8 +83,10 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
-
+// [c]: z then y
+// because the setTimeout for 1 ms is declared on the letter "y" it is
+// delayed until after the letter "z" is logged. 
+//
 // -----------------------------------------------
 
 //////////////////////////////////////////////////

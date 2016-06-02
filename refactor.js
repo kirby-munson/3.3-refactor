@@ -288,7 +288,11 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+var speed = 0;
 
+var accelerate = function(amount = 1) {
+  speed += amount;
+};
 
 // it is NaN because amount is not defined and the defautl is "undefined", and needs to have a number value.
 

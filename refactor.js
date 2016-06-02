@@ -144,7 +144,15 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 
+var colorName = {
+rojo: "#ff0000",
+blanco: "#ffffff",
+azul: "#0000ff",
+verde: "#00ff00",
+negro: "#000000"
+};
 
+return rojo;
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -212,6 +220,7 @@ var decreaseScore = function() {
 // Put your answer below -------------------------
 
 
+
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -257,6 +266,8 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
+
+// it is NaN because amount is not defined and the defautl is "undefined", and needs to have a number value.
 
 // -----------------------------------------------
 

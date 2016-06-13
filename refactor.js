@@ -336,7 +336,9 @@ var accelerate = function(amount = 1) {
 //       ...
 //     });
 
+
 var callLater = function(timeout, callback) {
+  timeout = typeof timeout !== 'undefined' ? timeout : 1000;
   setTimeout(callback, timeout);
 };
 
